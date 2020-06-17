@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: basicauth
+data:
+  htpasswd: |
+    alberto:$apr1$43SAPNpM$KmvXvy4ONFg/4PyDl3vh11
